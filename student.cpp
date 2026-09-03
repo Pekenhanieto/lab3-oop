@@ -98,9 +98,10 @@ int main() {
     // TODO (Parte D): Crea un segundo Student usando el constructor con
     // parametros, con datos dummy (ej. "Alice Smith", 1001, 3.7).
     cout << "\n --- Second Student ---\n";
+    Student s2("Obiwan Kenobi", 212, 4.0);
     
+    s2.printInfo();
 
-    
 
     return 0;
 }
