@@ -71,7 +71,7 @@ class Student
         // TODO (Parte E): Destructor.
         // Imprime un mensaje indicando que el objeto Student con ese 'name' fue destruido.
         ~Student() {
-            cout << "\n" << "Student object destroyed: " << name << "\n" << endl;
+            cout << "Student object destroyed: " << name << endl;
         }
 };
 
@@ -99,8 +99,9 @@ int main() {
     // parametros, con datos dummy (ej. "Alice Smith", 1001, 3.7).
     cout << "\n --- Second Student ---\n";
     Student s2("Obiwan Kenobi", 212, 4.0);
-    
+
     s2.printInfo();
+    cout << "\n";
 
 
     return 0;
